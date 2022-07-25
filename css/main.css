@@ -5,20 +5,23 @@
 }
 
 body {
-color: #8a2be2;
-    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 #wrapper {
-position: relative;
-width: 100%;
-overflow: hidden;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
 .container {
-max-width: 1150px;
-width: 100%;
-margin: 0 auto;
-padding: 0 20px;
-overflow: hidden;
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
 }
