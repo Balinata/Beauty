@@ -1,0 +1,16 @@
+*,
+*::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+color: #8a2be2;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+position: relative;
+width: 100%;
+overflow: hidden;
+}
