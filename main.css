@@ -3,13 +3,12 @@
     --base-color: #333;
     --white: #fff;
     --black: #000000;
-    --button-color: ;
     --hover-color: var(--pink);
     --speed: 0.8s;
-    --button-background:var(--white);
+    --button-background: var(--white);
     --pink: #F13C6E;
-    --button-border-color:var(--pink)
-    --button-color: var(--black);
+    --button-border-color: var(--pink) --button-color: var(--black);
+    --header-bar-color: #EFEFEF;
 }
 
 *,
@@ -41,13 +40,16 @@ body {
 }
 
 img {
-max-width: 100%;
-vertical-align: top;
-height: auto;
+    max-width: 100%;
+    vertical-align: top;
+    height: auto;
 }
 
 .header-panel {
+    font-size: 14px;
+    line-height: 16px;
     padding: 16px 0;
+
 }
 
 .menu {
@@ -55,85 +57,93 @@ height: auto;
     padding: 0;
     list-style: none;
     text-align: center;
-    font-size: 14px;
-    line-height: 16px;
 }
 
 .menu a {
-color: var(--base-color);
-text-decoration: none;
-transition: color var(--speed);
+    color: var(--base-color);
+    text-decoration: none;
+    transition: color var(--speed);
 }
 
 .menu a:hover {
-color: var(--hover-color);
+    color: var(--hover-color);
 }
 
-.menu > li {
+.menu>li {
     display: inline-block;
     padding: 0 15px;
 }
 
 .header-main {
-padding: 20px 0;
-background: var(--white);
+    padding: 20px 0;
+    background: var(--white);
 }
 
 .header-main .container {
-text-align: justify;
-line-height: 0;
-/* overflow: hidden; */
+    text-align: justify;
+    line-height: 0;
 }
 
 .header-main .container::after {
-content: '';
-width: 100%;
-display: inline-block;
-vertical-align: top;
+    content: '';
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .logo {
-display: inline-block;
-vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .header-main__box {
-display: inline-block;
-line-height: 1.2px;
-vertical-align: middle;
+    display: inline-block;
+    line-height: 1.2px;
+    vertical-align: middle;
 }
 
 .tel {
-font-size: 16px;
-text-decoration: none;
-margin: 0 40px 0 0;
-color: var(--black);
-display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 40px 0 0;
+    color: var(--black);
+    display: inline-block;
 }
 
 .tel:hover {
-color: var(--pink);
+    color: var(--pink);
 }
 
 .header-main__box .btn {
-vertical-align: middle;
+    vertical-align: middle;
 }
 
 .btn {
-font-size: 14px;
-font-weight: 400;
-line-height: 16px;
-display: inline-block;
-background: var(--button-background);
-color: var(--black);
-vertical-align: top;
-padding: 12px 27px;
-text-decoration: none;
-border: 2px solid var(--pink);
-border-radius: 50px;
-transition: background var(--speed);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    display: inline-block;
+    background: var(--button-background);
+    color: var(--black);
+    vertical-align: top;
+    padding: 10px 27px;
+    text-decoration: none;
+    border: 2px solid var(--pink);
+    border-radius: 50px;
+    transition: background var(--speed);
 }
 
 .btn:hover {
-background: var(--pink);
+    background: var(--pink);
+}
+
+.header-bar {
+    padding: 30px 0;
+    background: var(--white);
+    border-top: 1px solid var(--header-bar-color);
+}
+
+.header-bar {
+    font-size: 16px;
+    line-height: 19px;
 }
