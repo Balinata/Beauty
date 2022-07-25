@@ -1,3 +1,8 @@
+:root {
+    --gray: #E5E5E5;
+    --base-color: #333;
+}
+
 *,
 *::after,
 ::before {
@@ -5,16 +10,12 @@
 }
 
 body {
-    color: #333;
-    font-family: 'roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
+    color: var(--base-color);
+    font-family: 'roboto', sans-serif;
 }
-
-:root {
-    --gray:#E5E5E5;
-    }
 
 #wrapper {
     position: relative;
@@ -27,9 +28,8 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-    overflow: hidden;
 }
 
 .header-panel {
-background: var(--gray);
+    background: var(--gray);
 }
