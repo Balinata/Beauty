@@ -12,6 +12,10 @@ body {
     line-height: 20px;
 }
 
+:root {
+    --gray:#E5E5E5;
+    }
+
 #wrapper {
     position: relative;
     width: 100%;
@@ -24,4 +28,8 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     overflow: hidden;
+}
+
+.header-panel {
+background: var(--gray);
 }
