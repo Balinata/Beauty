@@ -2,8 +2,14 @@
     --gray: #E5E5E5;
     --base-color: #333;
     --white: #fff;
-    --hover-color: #F13C6E;
+    --black: #000000;
+    --button-color: ;
+    --hover-color: var(--pink);
     --speed: 0.8s;
+    --button-background:var(--white);
+    --pink: #F13C6E;
+    --button-border-color:var(--pink)
+    --button-color: var(--black);
 }
 
 *,
@@ -32,6 +38,12 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+img {
+max-width: 100%;
+vertical-align: top;
+height: auto;
 }
 
 .header-panel {
@@ -67,3 +79,61 @@ padding: 20px 0;
 background: var(--white);
 }
 
+.header-main .container {
+text-align: justify;
+line-height: 0;
+/* overflow: hidden; */
+}
+
+.header-main .container::after {
+content: '';
+width: 100%;
+display: inline-block;
+vertical-align: top;
+}
+
+.logo {
+display: inline-block;
+vertical-align: middle;
+}
+
+.header-main__box {
+display: inline-block;
+line-height: 1.2px;
+vertical-align: middle;
+}
+
+.tel {
+font-size: 16px;
+text-decoration: none;
+margin: 0 40px 0 0;
+color: var(--black);
+display: inline-block;
+}
+
+.tel:hover {
+color: var(--pink);
+}
+
+.header-main__box .btn {
+vertical-align: middle;
+}
+
+.btn {
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+display: inline-block;
+background: var(--button-background);
+color: var(--black);
+vertical-align: top;
+padding: 12px 27px;
+text-decoration: none;
+border: 2px solid var(--pink);
+border-radius: 50px;
+transition: background var(--speed);
+}
+
+.btn:hover {
+background: var(--pink);
+}
