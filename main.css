@@ -179,6 +179,15 @@ h1 {
     padding-bottom: 50px;
 }
 
+h2 {
+    padding-bottom: 38px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--black);
+}
+
 p {
     margin: 0;
     padding-bottom: 50px;
@@ -194,11 +203,36 @@ p {
     border: 2px solid var(--white);
 }
 
-h2 {
-    padding-bottom: 38px;
-    margin: 0;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
-    color: var(--black);
+.card {
+margin: 0 -15px;
+padding: 0;
+list-style: none;
+}
+
+.card > li {
+width: calc(100% / 4);
+float: left;
+padding: 0 15px;
+}
+
+.card {
+width: 100%;
+background: var(--white);
+padding-top: 25px;
+}
+
+.card:hover {
+box-shadow: 1px 1px 6px var(--pink);
+}
+
+.card_photo {
+background: var(--white);
+width: 125px;
+margin: 0 auto;
+}
+
+.text_card {
+background: var(--white);
+padding: 20px 30px 25px;
+text-align: center;
 }
