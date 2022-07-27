@@ -147,3 +147,9 @@ img {
     font-size: 16px;
     line-height: 19px;
 }
+
+.main {
+display: inline-block;
+padding: 0 20px;
+}
+
