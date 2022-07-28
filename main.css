@@ -349,10 +349,21 @@ td {
 border: 1px solid var(--white);
 }
 
-[alt="impuls"] {
+[alt="a"] {
 padding: 35px 65px;
 }
 
 [alt="impuls"]:hover {
 box-shadow: 1px 1px 5px var(--pink);
+}
+
+.footer_f {
+background: var(--white);
+}
+
+.footer_nav {
+display: inline-block;
+width: calc(100% / 4);
+margin-right: -4px;
+padding-right: 30px;
 }
