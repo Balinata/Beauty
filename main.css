@@ -236,3 +236,20 @@ background: var(--white);
 padding: 20px 30px 25px;
 text-align: center;
 }
+
+.text_card h5 {
+padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+span {
+display: inline-block;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+letter-spacing: 0.05em;
+color: var(--black);
+}
