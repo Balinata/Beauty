@@ -254,3 +254,23 @@ letter-spacing: 0.05em;
 padding-bottom: 20px;
 color: var(--black);
 }
+
+.btn2 {
+display: inline-block;
+text-decoration: none;
+color: var(--white);
+letter-spacing: 0.05em;
+line-height: 16px;
+padding: 9px 40px;
+border-radius: 30px;
+border: 1px solid var(--pink);
+background: var(--pink);
+transition: all .8s;
+}
+
+.btn:hover {
+background: var(--white);
+color: var(--black);
+border: 1px solid var(--pink);
+}
+
