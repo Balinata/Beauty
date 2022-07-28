@@ -330,12 +330,29 @@ line-height: 16px;
 padding: 8px 0;
 } */
 
-.container [class="one"]:first-child {
-margin-right: 26px;
-}
-
 [alt="car"] {
 margin-top: 25px;
 margin-left: 96px;
 }
 
+.container [class="one"]:first-child {
+    margin-right: 26px;
+    }
+    
+table {
+background: var(--white);
+border-collapse: collapse;
+margin-bottom: 80px;
+}
+
+td {
+border: 1px solid var(--white);
+}
+
+[alt="impuls"] {
+padding: 35px 65px;
+}
+
+[alt="impuls"]:hover {
+box-shadow: 1px 1px 5px var(--pink);
+}
