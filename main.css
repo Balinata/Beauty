@@ -294,3 +294,19 @@ display: inline-block;
 max-width: 250px;
 margin-right: 65px;
 }
+
+h3 {
+margin: 0;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+color: var(--white);
+}
+
+.one p {
+padding: 25px 0;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: var(--white);
+}
