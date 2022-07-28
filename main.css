@@ -274,3 +274,23 @@ color: var(--black);
 border: 1px solid var(--pink);
 }
 
+.one {
+display: inline-block;
+max-width: 540px;
+background: var(--pink);
+color: var(--white);
+overflow: hidden;
+margin: 100px 0;
+vertical-align: middle;
+padding: 45px 35px;
+}
+
+.one img {
+float: right;
+}
+
+.one_text {
+display: inline-block;
+max-width: 250px;
+margin-right: 65px;
+}
