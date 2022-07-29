@@ -169,18 +169,51 @@ img {
 .block1 {
     background-image: url(.//images/background1.png);
     padding-bottom: 100px;
-    min-width: 604px;
-    width: 100%;
+    padding-top: 100%;
+    /* background-position: 50% 50%; */
+    min-height: 604px;
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
     margin-bottom: 79px;
+    padding: 0;
 }
 
 .container_1 {
-    max-width: 1000px;
-    padding: 190px 0 190px;
+    max-width: 1150px;
+    padding: 170px 0;
     margin: 0 auto;
+}
+
+.text_1 a:hover {
+        color: var(--hover-color);
+}
+
+.text_1> h1 {
+        font-weight: 700px;
+        font-size: 48px;
+        line-height: 56px;
+}
+
+.text_1> p {
+        /* margin: 50px 0 50px 0; */
+        /* padding-bottom: 50px; */
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 50px;
+}
+
+.text_1 {
+padding-left: 10px;
+}
+
+.text_1>.btn {
+        display: inline-block;
+        color: var(--white);
+        background: var(--pink);
+        border: 2px solid var(--white);
+        transition: background var(--speed);
 }
 
 .btn_0 {
@@ -206,36 +239,11 @@ img {
     background: var(--white);
 }
 
-.text_1 {
-margin-left: 120px;
-}
-
-.text_1> h1 {
-    font-style: normal;
-    font-weight: 700px;
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 42px;
-}
-
-.text_1>p {
-    margin: 50px 0 50px 0;
-    /* padding-bottom: 50px; */
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    font-style: normal;
-}
-
-.text_1>.btn {
-    display: inline-block;
-    color: var(--white);
-    background: var(--pink);
-    border: 2px solid var(--white);
-        transition: background var(--speed);
-}
-.text_1 a:hover {
-    color: var(--hover-color);
+.block2 {
+    max-width: 1110px;
+    min-height: 430px;
+    color: var(--black);
+    margin: 0 auto;
 }
 
 .sph2 {
@@ -243,21 +251,8 @@ margin-left: 120px;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
-    padi
-}
-
-.block2 {
     margin-bottom: 38px;
-    max-width: 1110px;
-    min-height: 430px;
-    color: var(--black);
-    margin: 0 auto;
-}
-
-.container_2 {
-    max-width: 1000px;
-    padding: 190px 0 190px;
-    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .cards {
@@ -318,11 +313,11 @@ margin-left: 120px;
 }
 
 .text_card h5 {
-    padding-bottom: 25px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    margin-top: 0;
 }
 
 span {
@@ -416,21 +411,6 @@ td {
 
 [alt="impuls"]:hover {
     box-shadow: 1px 1px 5px var(--pink);
-}
-
-.cards_5>li {
-    display: inline-block;
-    width: calc(100% / 4);
-    float: left;
-    padding: 0 15px;
-    margin-right: -4px;
-    vertical-align: top;
-}
-
-.cards_5 {
-    margin: 0 -15px;
-    padding: 0;
-    list-style: none;
 }
 
 .footer_f {
