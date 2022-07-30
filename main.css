@@ -333,6 +333,7 @@ span {
 .container_3 {
     max-width: 540px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .one {
@@ -344,13 +345,11 @@ span {
 }
 
 .one_text {
-    display: inline-block;
     max-width: 100%;
     margin-right: 65px;
 }
 
 .one_text_2 {
-    display: inline-block;
     max-width: 100%;
     margin-left: 12px;
 }
@@ -425,6 +424,10 @@ td {
     background: var(--white);
 }
 
+.nav_menu {
+list-style: none;
+}
+
 .footer_nav {
     display: inline-block;
     width: calc(100% / 4);
@@ -438,14 +441,15 @@ td {
     background: var(--white);
 }
 
-.foot_conteiner {
+.foot_container {
     max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+    list-style: none;
 }
 
-.icon .foot_conteiner {
+.icon .foot_container {
     text-align: justify;
     line-height: 0;
 }
@@ -455,7 +459,17 @@ td {
     background: var(--white);
 }
 
-.icon .foot_conteiner::before {
+.list {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.list>li {
+float: left;
+}
+
+.icon .foot_container::before {
     content: '';
     width: 100%;
     display: inline-block;
@@ -471,7 +485,6 @@ td {
     display: inline-block;
     line-height: 1.2px;
     vertical-align: middle;
-
 }
 
 .tel_2 {
@@ -487,7 +500,7 @@ td {
 }
 
 .footer-panel {
-padding: 25px 25px;
+    padding: 25px 25px;
 }
 
 .footer_panel p {
