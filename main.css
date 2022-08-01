@@ -201,7 +201,7 @@ img {
 }
 
 .text_1 {
-    /* padding-left: 10px; */
+    padding-left: 22px; 
     padding-top: 160px;
 }
 
@@ -419,15 +419,17 @@ color: ;
     margin-right: 26px;
 }
 
-/* .impuls_table {
+.impuls_table {
 padding-top: 97px;
+
 }
 
 .table {
 margin: 0 auto;
-} */
+padding-bottom: 80px;
+}
 
-/* table tr td {
+table tr td {
 background-color: var(--white);
 border: 1px solid #EFEFEF;
 border-collapse: collapse;
@@ -442,6 +444,7 @@ transition: 1s;
 table td:hover {
 background: var(--pink);
 }
+
 table img {
 width: 149px;
 height: 49px;
@@ -457,6 +460,14 @@ height: 49px;
 list-style: none;
 }
 
+.nav_menu a {
+transition: var(--speed);
+}
+
+.nav_menu a:hover {
+color: var(--hover-color);
+}
+
 .footer_nav {
     display: inline-block;
     width: calc(100% / 4);
@@ -470,14 +481,14 @@ list-style: none;
     margin: 0 auto;
     padding: 0 20px;
     list-style: none;
-} */
+}
 
-/* .icon .foot_container {
+.icon .foot_container {
     text-align: justify;
     line-height: 0;
-} */
+}
 
-/* .icon .foot_container::after {
+.icon .foot_container::after {
     content: '';
     width: 100%;
     display: inline-block;
@@ -498,9 +509,9 @@ text-align: justify;
      padding: 0;
      margin: 0;
      text-align: center;
-} */
+}
 
-/* .list a {
+.list a {
 display: block;
     width: 45px;
     height: 45px;
@@ -515,19 +526,19 @@ vertical-align: middle;
 .list>li {
 float: left;
 padding-bottom: 20px;
-} */
+}
 
-/* .logo_2 {
+.logo_2 {
     display: block;
     vertical-align: middle;
-} */
+}
 
-/* .tell_footer {
+.tell_footer {
 float: right;
     line-height: 1.2px;
     vertical-align: middle;
-} */
-/* 
+}
+
 .tel_2 {
     font-size: 16px;
     text-decoration: none;
@@ -545,16 +556,16 @@ float: right;
 }
 
 .footer_panel p {
-/* padding-left: 0 55px; */
-/* font-weight: 400;
+ padding-left: 0 55px;
+ font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     color: var(--base-color);
-} */
+}
 
-/* .footer_panel.> .foot_0 {
+.footer_panel.> .foot_0 {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
-} */
+}
