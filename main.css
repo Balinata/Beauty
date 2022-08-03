@@ -338,10 +338,14 @@ span {
     float: right;
 }
 
+.one_text_2 {
+    display: inline-block;
+    max-width: 250px;
+}
+
 .one_text {
     display: inline-block;
     max-width: 250px;
-    margin-right: 65px;
 }
 
 h3 {
@@ -364,11 +368,6 @@ h3 {
 input::placeholder {
     padding: 25px;
     color: ;
-}
-
-.one_text_2 {
-    display: inline-block;
-    max-width: 250px;
 }
 
 .btn_1 {
@@ -577,14 +576,11 @@ h4 {
     color: var(--base-color);
 }
 
-.footer_panel a {
-    padding: 33px;
-}
+
 
 .foot_0 {
     float: right;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    text-align: right;
 }
