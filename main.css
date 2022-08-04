@@ -319,10 +319,6 @@ span {
     color: var(--black);
 }
 
-.container .cards_2 {
-    max-width: 540px;
-}
-
 .cards_2 {
     max-width: 540px;
     background: var(--pink);
@@ -338,12 +334,12 @@ span {
     float: right;
 }
 
-.one_text_2 {
+.one_text {
     display: inline-block;
     max-width: 250px;
 }
 
-.one_text {
+.one_text_2 {
     display: inline-block;
     max-width: 250px;
 }
@@ -395,6 +391,11 @@ input::placeholder {
 }
 
 [alt="car"] {
+    margin-top: 25px;
+    margin-left: 96px;
+}
+
+[alt="envelope"] {
     margin-top: 25px;
     margin-left: 96px;
 }
@@ -525,6 +526,7 @@ h4 {
 
 .logo_2 {
     display: block;
+    vertical-align: middle;
 }
 
 .tell_footer {
@@ -576,11 +578,14 @@ h4 {
     color: var(--base-color);
 }
 
-
+.footer_panel a {
+    padding: 33px;
+}
 
 .foot_0 {
     float: right;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
+    text-align: right;
 }
