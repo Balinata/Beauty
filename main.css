@@ -158,7 +158,6 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
-    /* margin-bottom: 79px; */
     padding: 0;
 }
 
@@ -224,18 +223,12 @@ img {
 }
 
 .sph2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     margin-bottom: 38px;
     margin-top: 80px;
 }
 
 .sph3 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     margin-bottom: 38px;
     padding-left: 19px;
@@ -339,7 +332,6 @@ span:hover {
     vertical-align: middle;
     padding: 10px;
     margin: 0 26px;
-    display: inline-block;
     overflow: hidden;
     display: inline-flex;
     flex-direction: row-reverse;
@@ -353,7 +345,6 @@ span:hover {
     vertical-align: middle;
     padding: 32px;
     margin: 100px 0;
-    display: inline-block;
     overflow: hidden;
     display: inline-flex;
     flex-direction: row-reverse;
@@ -381,6 +372,9 @@ span:hover {
 .one_text p {
     margin: 25px 0;
     padding-left: 13px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .one_text_2 h3 {
@@ -392,6 +386,8 @@ span:hover {
 
 .one_text_2 p {
     margin: 25px 0;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 [alt="car"] {
@@ -418,11 +414,8 @@ span:hover {
     border-radius: 30px;
     margin-left: 13px;
     padding-left: 15px;
-}
-
-input::placeholder {
-    /* padding: 25px; */
-    color: ;
+    color: var(--black);
+    border-color: var(--white);
 }
 
 .btn_1 {
@@ -545,7 +538,6 @@ h4 {
     list-style: none;
     overflow: hidden;
     padding-left: 0;
-    padding-top: 0;
 }
 
 .list img {
