@@ -11,6 +11,8 @@
     --header-bar-color: #EFEFEF;
     --cards_email: #C4C4C4;
     --nav_menu: #828282;
+    --span-hover: #f0bac9;
+    --img-hover:#ffc8c86d;
 }
 
 *,
@@ -20,8 +22,6 @@
 }
 
 body {
-    font-size: 14px;
-    font-weight: 400;
     line-height: 20px;
     color: var(--base-color);
     font-family: 'roboto', sans-serif;
@@ -220,7 +220,7 @@ img {
     min-height: 430px;
     color: var(--black);
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 0;
 }
 
 .sph2 {
@@ -281,6 +281,7 @@ input :placeholder-shown {
     border: 1px solid var(--pink);
     background: var(--pink);
     transition: all .8s;
+    margin-top: 20px;
 }
 
 .btn2:hover {
@@ -307,62 +308,120 @@ input :placeholder-shown {
     line-height: 20px;
     text-align: center;
     margin-top: 0;
+    transition: var(--black);
+    cursor: pointer;
+}
+
+.text_card h5:hover {
+    background: var(--span-hover);
+    border-radius: 8px;
 }
 
 span {
-    display: inline-block;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 0.05em;
-    padding-bottom: 20px;
     color: var(--black);
+    transition: all 1s linear;
+    cursor: pointer;
 }
 
-.cards_2 {
-    max-width: 540px;
+span:hover {
+    background: var(--span-hover);
+    border-radius: 8px;
+    }
+
+.cards_1 {
+    max-width: 525px;
     background: var(--pink);
     color: var(--white);
     vertical-align: middle;
-    padding: 41px 34px;
+    padding: 10px;
+    margin: 0 26px;
+    display: inline-block;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 212px;
+}
+
+.cards_2 {
+    max-width: 525px;
+    background: var(--pink);
+    color: var(--white);
+    vertical-align: middle;
+    padding: 32px;
     margin: 100px 0;
     display: inline-block;
     overflow: hidden;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 212px;
 }
 
-.cards_2 img {
-    float: right;
-}
-
-.one_text {
-    display: inline-block;
-    max-width: 250px;
+    .one_text .one_text_2 {
+    padding: 0;
+    margin: 0;
 }
 
 .one_text_2 {
-    display: inline-block;
-    max-width: 250px;
+    padding-top: 0;
 }
 
-h3 {
+.one_text h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 22px;
+    padding-left: 13px;
+}
+
+.one_text p {
+     margin: 25px 0;
+     padding-left: 13px;
+}
+
+.one_text_2 h3 {
     margin: 0;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
 }
 
-.cards_2 p {
-    padding: 25px 0;
+.one_text_2 p {
+    margin: 25px 0;
+}
+
+[alt="car"] {
+    width: 140px;
+    height: 106px;
+    margin-top: 25px;
+    margin-left: 134px;
+}
+
+[alt="envelope"] {
+    width: 140px;
+    height: 106px;
+    margin-top: 42px;
+    margin-left: 88px;
+}
+
+.left_img {
+padding-right: 0;
 }
 
 [type="email"] {
     width: 225px;
     height: 35px;
     border-radius: 30px;
+    margin-left: 13px;
+    padding-left: 15px;
 }
 
 input::placeholder {
-    padding: 25px;
+    /* padding: 25px; */
     color: ;
 }
 
@@ -390,28 +449,17 @@ input::placeholder {
     color: var(--pink);
 }
 
-[alt="car"] {
-    margin-top: 25px;
-    margin-left: 96px;
-}
-
-[alt="envelope"] {
-    margin-top: 25px;
-    margin-left: 96px;
-}
-
-.container [class="one"]:first-child {
-    margin-right: 26px;
-}
-
 .impuls_table {
-    padding-top: 97px;
+    padding-top: 34px;
 }
 
 .table {
     margin: 0 auto;
     padding-bottom: 80px;
     padding: 33px;
+    padding: 13px;
+    padding-left: 19px;
+    padding-bottom: 80px;
 }
 
 table tr td {
@@ -439,14 +487,11 @@ table img {
     display: inline-block;
     width: calc(100% / 4);
     margin-right: -4px;
-    padding-right: 30px;
+    border-bottom: 1px solid #EFEFEF;
 }
 
 .footer_f {
     background: var(--white);
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 h4 {
@@ -456,13 +501,12 @@ h4 {
     line-height: 141%:
 }
 
-.footer_nav {
-    border-bottom: 1px solid #EFEFEF;
-    top: 3095px;
-}
-
 .nav_menu {
     list-style: none;
+}
+
+.nav_f {
+    margin-bottom: 60px;
 }
 
 .nav_menu a {
@@ -477,46 +521,40 @@ h4 {
     color: var(--hover-color);
 }
 
-.icon .foot_container {
-    text-align: justify;
-    line-height: 0;
-}
-
-.icon .foot_container {
-    text-align: justify;
-}
-
 .icon {
     padding: 20px 0;
     background: var(--white);
 }
 
+.icon .container {
+text-align: justify;
+line-height: 0;
+}
+
+.icon .container::after {
+content:'';
+width: 100%;
+display: inline-block;
+vertical-align: top;
+}
+
 .list {
     list-style: none;
-    text-align: center;
     overflow: hidden;
     padding-left: 0;
-    padding-top: 37px;
-}
-
-.nav_f {
-    margin-bottom: 60px;
-}
-
-.list a {
-    display: block;
-    width: 45px;
-    height: 45px;
-    padding: 10px;
-}
-
-.list a:hover {
-    color: var(--pink);
+    padding-top: 0;
 }
 
 .list img {
+    height: 55px;
+    padding: 10px;
     max-width: 100%;
-    vertical-align: middle;
+    transition: all 1s linear;
+}
+
+.list img:hover {
+    background:#ffc8c86d;
+    border-radius: 60px;
 }
 
 .list>li {
@@ -524,15 +562,11 @@ h4 {
     padding-bottom: 20px;
 }
 
-.logo_2 {
-    display: block;
-    vertical-align: middle;
-}
-
 .tell_footer {
-    float: right;
     line-height: 1.2px;
     vertical-align: middle;
+    float: right;
+    margin: -50px 19px;
 }
 
 .tel_2 {
@@ -540,7 +574,7 @@ h4 {
     text-decoration: none;
     margin: 0 40px 0 0;
     color: var(--black);
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .tel_2:hover {
@@ -568,24 +602,26 @@ h4 {
 }
 
 .footer-panel {
-    padding: 25px;
-}
-
-.footer_panel {
+    padding: 32px;
+    margin-left: 118px;
+    margin-right: 102px;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
-    color: var(--base-color);
-}
-
-.footer_panel a {
-    padding: 33px;
+    color: var(--black);
 }
 
 .foot_0 {
     float: right;
+    color: #000000;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     text-align: right;
+    text-decoration: none;
+    margin: -30px 0;
+}
+
+.foot_0:hover {
+color: var(--pink);
 }
